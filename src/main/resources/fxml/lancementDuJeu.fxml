@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<?import com.gluonhq.charm.glisten.control.Avatar?>-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<fx:root maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #384454;" stylesheets="@../css/style.css" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="nomsJoueurs1" alignment="TOP_CENTER" layoutX="106.0" layoutY="95.0" prefHeight="25.0" prefWidth="174.0" promptText="elein" style="-fx-background-color: #000000; -fx-text-inner-color: white;" text="elein">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nomsJoueurs11" alignment="TOP_CENTER" editable="false" layoutX="323.0" layoutY="95.0" prefHeight="25.0" prefWidth="164.0" promptText="8" style="-fx-background-color: #000000; -fx-text-inner-color: white;" text="8" />
+      <ImageView fitHeight="43.0" fitWidth="215.0" layoutX="193.0" layoutY="10.0">
+         <image>
+            <Image url="@../images/titre_aventuriers_du_rail.png" />
+         </image>
+      </ImageView>
+     <!-- <Avatar layoutX="79.0" layoutY="89.0" />-->
+      <Text layoutX="14.0" layoutY="28.0" stroke="#666d86" strokeType="OUTSIDE" strokeWidth="2.0" text="V 1.01" />
+      <Text layoutX="161.0" layoutY="76.0" lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" text="pseudo" textAlignment="CENTER" wrappingWidth="62.41015625">
+         <font>
+            <Font name="Bodoni MT Black" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="293.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nombre villes visitées en europe" wrappingWidth="230.3982521057129">
+         <font>
+            <Font name="Bodoni MT Black" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nomsJoueurs2" alignment="TOP_CENTER" layoutX="106.0" layoutY="139.0" prefHeight="25.0" prefWidth="174.0" promptText="guybush" style="-fx-background-color: #000000;-fx-text-inner-color: white;" text="guybush" />
+      <TextField fx:id="nomsJoueurs22" alignment="TOP_CENTER" editable="false" layoutX="323.0" layoutY="139.0" prefHeight="25.0" prefWidth="164.0" promptText="9" style="-fx-background-color: #000000;-fx-text-inner-color: white;" text="9" />
+     <!-- <Avatar layoutX="79.0" layoutY="133.0" />
+      <TextField fx:id="nomsJoueurs33" alignment="TOP_CENTER" layoutX="316.0" layoutY="181.0" promptText="5" style="-fx-background-color: #000000;" />
+      <Avatar layoutX="79.0" layoutY="176.0" />-->
+      <TextField fx:id="nomsJoueurs3" alignment="TOP_CENTER" layoutX="106.0" layoutY="182.0" prefHeight="25.0" prefWidth="174.0" promptText="elpatron" style="-fx-background-color: #000000;-fx-text-inner-color: white;" text="elpatron" />
+      <TextField fx:id="nomsJoueurs33" alignment="TOP_CENTER" editable="false" layoutX="322.0" layoutY="182.0" prefHeight="25.0" prefWidth="164.0" promptText="10" style="-fx-background-color: #000000; -fx-text-inner-color: white;" text="10" />
+      <TextField fx:id="nomsJoueurs4" alignment="TOP_CENTER" layoutX="106.0" layoutY="226.0" prefHeight="25.0" prefWidth="174.0" promptText="sylia" style="-fx-background-color: #000000;-fx-text-inner-color: white;" text="sylia" />
+      <TextField fx:id="nomsJoueurs44" alignment="TOP_CENTER" editable="false" layoutX="322.0" layoutY="226.0" prefHeight="25.0" prefWidth="164.0" promptText="11" style="-fx-background-color: #000000;-fx-text-inner-color: white;" text="11" />
+      <TextField fx:id="nomsJoueurs5" alignment="TOP_CENTER" layoutX="106.0" layoutY="268.0" prefHeight="25.0" prefWidth="174.0" promptText="sarah" style="-fx-background-color: #000000; -fx-text-inner-color: white;" text="sarah" />
+      <TextField fx:id="nomsJoueurs55" alignment="TOP_CENTER" editable="false" layoutX="322.0" layoutY="268.0" prefHeight="25.0" prefWidth="164.0" promptText="12" style="-fx-background-color: #000000; -fx-text-inner-color: white;" text="12" />
+      <!-- <Avatar layoutX="79.0" layoutY="220.0" />
+       <TextField fx:id="nomsJoueurs55" alignment="TOP_CENTER" layoutX="316.0" layoutY="270.0" promptText="8" style="-fx-background-color: #000000;" />
+       <TextField fx:id="nomsJoueurs5" alignment="TOP_CENTER" layoutX="143.0" layoutY="270.0" promptText="sarah" style="-fx-background-color: #000000;" />
+       <Avatar layoutX="79.0" layoutY="265.0" />-->
+      <Text layoutX="184.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2P">
+         <font>
+            <Font name="Bodoni MT Black" size="12.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="b1" layoutX="184.0" layoutY="323.0" mnemonicParsing="false" onAction="#br">
+         <effect>
+            <DropShadow />
+         </effect>
+      </RadioButton>
+      <RadioButton fx:id="b2" layoutX="255.0" layoutY="323.0" mnemonicParsing="false" onAction="#br">
+         <effect>
+            <DropShadow />
+         </effect>
+      </RadioButton>
+      <Text layoutX="255.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3P">
+         <font>
+            <Font name="Bodoni MT Black" size="12.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="b3" layoutX="320.0" layoutY="323.0" mnemonicParsing="false" onAction="#br">
+         <effect>
+            <DropShadow />
+         </effect>
+      </RadioButton>
+      <Text layoutX="319.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4P">
+         <font>
+            <Font name="Bodoni MT Black" size="12.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="b4" layoutX="391.0" layoutY="323.0" mnemonicParsing="false" onAction="#br" selected="true">
+         <effect>
+            <DropShadow />
+         </effect>
+      </RadioButton>
+      <Text layoutX="391.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5P">
+         <font>
+            <Font name="Bodoni MT Black" size="12.0" />
+         </font>
+      </Text>
+      <Button layoutX="273.0" layoutY="355.0" mnemonicParsing="false" onAction="#PLAYClick" style="-fx-background-color: #000000;-fx-text-fill: white;" text="PLAY" />
+      <ImageView fx:id="img1" fitHeight="30.0" fitWidth="30.0" layoutX="47.0" layoutY="94.0">
+         <image>
+            <Image url="@../images/joueurs/avatar-BLEU.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img4" fitHeight="30.0" fitWidth="30.0" layoutX="47.0" layoutY="225.0">
+         <image>
+            <Image url="@../images/joueurs/avatar-JAUNE.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img5" fitHeight="30.0" fitWidth="30.0" layoutX="47.0" layoutY="267.0">
+         <image>
+            <Image url="@../images/joueurs/avatar-ROSE.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img2" fitHeight="30.0" fitWidth="30.0" layoutX="47.0" layoutY="138.0">
+         <image>
+            <Image url="@../images/joueurs/avatar-ROUGE.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img3" fitHeight="30.0" fitWidth="30.0" layoutX="48.0" layoutY="181.0">
+         <image>
+            <Image url="@../images/joueurs/avatar-VERT.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="p1" layoutX="498.0" layoutY="95.0" mnemonicParsing="false" text="+" />
+      <Button fx:id="p2" layoutX="498.0" layoutY="139.0" mnemonicParsing="false" text="+" />
+      <Button fx:id="p3" layoutX="498.0" layoutY="182.0" mnemonicParsing="false" text="+" />
+      <Button fx:id="p4" layoutX="498.0" layoutY="226.0" mnemonicParsing="false" text="+" />
+      <Button fx:id="p5" layoutX="498.0" layoutY="268.0" mnemonicParsing="false" text="+" />
+      <Button fx:id="m1" layoutX="293.0" layoutY="95.0" mnemonicParsing="false" text="-" />
+      <Button fx:id="m2" layoutX="293.0" layoutY="139.0" mnemonicParsing="false" text="-" />
+      <Button fx:id="m3" layoutX="293.0" layoutY="182.0" mnemonicParsing="false" text="-" />
+      <Button fx:id="m4" layoutX="293.0" layoutY="226.0" mnemonicParsing="false" text="-" />
+      <Button fx:id="m5" layoutX="293.0" layoutY="268.0" mnemonicParsing="false" text="-" />
+   </children>
+</fx:root>

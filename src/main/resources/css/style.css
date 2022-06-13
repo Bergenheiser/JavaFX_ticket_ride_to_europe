@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+#routes Rectangle {
+    -fx-fill: "Transparent";
+    -fx-stroke: "black";
+    -fx-stroke-width: 2;
+}
+
+#villes Circle {
+    -fx-fill: "Transparent";
+    -fx-stroke: "black";
+    -fx-stroke-width: 2;
+}
+
+#ALL {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+    -fx-border-radius: 50 50 50 50;
+    -fx-background-radius: 50 50 50 50;
+}
